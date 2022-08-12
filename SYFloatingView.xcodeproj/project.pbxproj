@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BBB99E286E951F009FF0C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBB99D286E951F009FF0C4 /* AppDelegate.m */; };
+		04BBB9A1286E951F009FF0C4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBB9A0286E951F009FF0C4 /* SceneDelegate.m */; };
+		04BBB9A4286E951F009FF0C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBB9A3286E951F009FF0C4 /* ViewController.m */; };
+		04BBB9A7286E951F009FF0C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BBB9A5286E951F009FF0C4 /* Main.storyboard */; };
+		04BBB9A9286E9521009FF0C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BBB9A8286E9521009FF0C4 /* Assets.xcassets */; };
+		04BBB9AC286E9521009FF0C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BBB9AA286E9521009FF0C4 /* LaunchScreen.storyboard */; };
+		04BBB9AF286E9521009FF0C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBB9AE286E9521009FF0C4 /* main.m */; };
+		04BBB9B9286E9521009FF0C4 /* SYFloatingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBB9B8286E9521009FF0C4 /* SYFloatingViewTests.m */; };
+		04BBB9C3286E9521009FF0C4 /* SYFloatingViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBB9C2286E9521009FF0C4 /* SYFloatingViewUITests.m */; };
+		04BBB9C5286E9521009FF0C4 /* SYFloatingViewUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBB9C4286E9521009FF0C4 /* SYFloatingViewUITestsLaunchTests.m */; };
+		04BBB9D4286E956F009FF0C4 /* SYFloatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BBB9D3286E956F009FF0C4 /* SYFloatingView.m */; };
+		5044A342312397E444CAE163 /* Pods_SYFloatingView_SYFloatingViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B9F7B5F0500B8DD61B0D65 /* Pods_SYFloatingView_SYFloatingViewUITests.framework */; };
+		65E82A37BD1AA87BE496B464 /* Pods_SYFloatingViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E513EF0C3237FA9ABA20979 /* Pods_SYFloatingViewTests.framework */; };
+		95A0D4BF23D156974DE57D09 /* Pods_SYFloatingView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1BE3062C807C15F260CA14 /* Pods_SYFloatingView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04BBB9B5286E9521009FF0C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BBB991286E951F009FF0C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BBB998286E951F009FF0C4;
+			remoteInfo = SYFloatingView;
+		};
+		04BBB9BF286E9521009FF0C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BBB991286E951F009FF0C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BBB998286E951F009FF0C4;
+			remoteInfo = SYFloatingView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BBB999286E951F009FF0C4 /* SYFloatingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYFloatingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BBB99C286E951F009FF0C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04BBB99D286E951F009FF0C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04BBB99F286E951F009FF0C4 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		04BBB9A0286E951F009FF0C4 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		04BBB9A2286E951F009FF0C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04BBB9A3286E951F009FF0C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04BBB9A6286E951F009FF0C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04BBB9A8286E9521009FF0C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04BBB9AB286E9521009FF0C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04BBB9AD286E9521009FF0C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BBB9AE286E9521009FF0C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04BBB9B4286E9521009FF0C4 /* SYFloatingViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYFloatingViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BBB9B8286E9521009FF0C4 /* SYFloatingViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYFloatingViewTests.m; sourceTree = "<group>"; };
+		04BBB9BE286E9521009FF0C4 /* SYFloatingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYFloatingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BBB9C2286E9521009FF0C4 /* SYFloatingViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYFloatingViewUITests.m; sourceTree = "<group>"; };
+		04BBB9C4286E9521009FF0C4 /* SYFloatingViewUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYFloatingViewUITestsLaunchTests.m; sourceTree = "<group>"; };
+		04BBB9D2286E956F009FF0C4 /* SYFloatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFloatingView.h; sourceTree = "<group>"; };
+		04BBB9D3286E956F009FF0C4 /* SYFloatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFloatingView.m; sourceTree = "<group>"; };
+		2D1BE3062C807C15F260CA14 /* Pods_SYFloatingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYFloatingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43DD62B23994E2E3EE3AAF94 /* Pods-SYFloatingView-SYFloatingViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYFloatingView-SYFloatingViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-SYFloatingView-SYFloatingViewUITests/Pods-SYFloatingView-SYFloatingViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		57D91CD24AD52BDAB23C9599 /* Pods-SYFloatingView-SYFloatingViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYFloatingView-SYFloatingViewUITests.release.xcconfig"; path = "Target Support Files/Pods-SYFloatingView-SYFloatingViewUITests/Pods-SYFloatingView-SYFloatingViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		63B9F7B5F0500B8DD61B0D65 /* Pods_SYFloatingView_SYFloatingViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYFloatingView_SYFloatingViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E513EF0C3237FA9ABA20979 /* Pods_SYFloatingViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYFloatingViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B682C1721DE4CC07E7E0F448 /* Pods-SYFloatingView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYFloatingView.debug.xcconfig"; path = "Target Support Files/Pods-SYFloatingView/Pods-SYFloatingView.debug.xcconfig"; sourceTree = "<group>"; };
+		B7CD1551289D04CADFF40AE4 /* Pods-SYFloatingViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYFloatingViewTests.release.xcconfig"; path = "Target Support Files/Pods-SYFloatingViewTests/Pods-SYFloatingViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		C687077D6EB54D8822F53C5E /* Pods-SYFloatingViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYFloatingViewTests.debug.xcconfig"; path = "Target Support Files/Pods-SYFloatingViewTests/Pods-SYFloatingViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6DA0597E615B00FE02EB23C /* Pods-SYFloatingView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYFloatingView.release.xcconfig"; path = "Target Support Files/Pods-SYFloatingView/Pods-SYFloatingView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04BBB996286E951F009FF0C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A0D4BF23D156974DE57D09 /* Pods_SYFloatingView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BBB9B1286E9521009FF0C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E82A37BD1AA87BE496B464 /* Pods_SYFloatingViewTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BBB9BB286E9521009FF0C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5044A342312397E444CAE163 /* Pods_SYFloatingView_SYFloatingViewUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BBB990286E951F009FF0C4 = {
+			isa = PBXGroup;
+			children = (
+				04BBB99B286E951F009FF0C4 /* SYFloatingView */,
+				04BBB9B7286E9521009FF0C4 /* SYFloatingViewTests */,
+				04BBB9C1286E9521009FF0C4 /* SYFloatingViewUITests */,
+				04BBB99A286E951F009FF0C4 /* Products */,
+				99E2773BE1C48C095F40FF64 /* Pods */,
+				E01131631FE831505926E302 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04BBB99A286E951F009FF0C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04BBB999286E951F009FF0C4 /* SYFloatingView.app */,
+				04BBB9B4286E9521009FF0C4 /* SYFloatingViewTests.xctest */,
+				04BBB9BE286E9521009FF0C4 /* SYFloatingViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04BBB99B286E951F009FF0C4 /* SYFloatingView */ = {
+			isa = PBXGroup;
+			children = (
+				04BBB9D1286E953E009FF0C4 /* SYFloatingView */,
+				04BBB99C286E951F009FF0C4 /* AppDelegate.h */,
+				04BBB99D286E951F009FF0C4 /* AppDelegate.m */,
+				04BBB99F286E951F009FF0C4 /* SceneDelegate.h */,
+				04BBB9A0286E951F009FF0C4 /* SceneDelegate.m */,
+				04BBB9A2286E951F009FF0C4 /* ViewController.h */,
+				04BBB9A3286E951F009FF0C4 /* ViewController.m */,
+				04BBB9A5286E951F009FF0C4 /* Main.storyboard */,
+				04BBB9A8286E9521009FF0C4 /* Assets.xcassets */,
+				04BBB9AA286E9521009FF0C4 /* LaunchScreen.storyboard */,
+				04BBB9AD286E9521009FF0C4 /* Info.plist */,
+				04BBB9AE286E9521009FF0C4 /* main.m */,
+			);
+			path = SYFloatingView;
+			sourceTree = "<group>";
+		};
+		04BBB9B7286E9521009FF0C4 /* SYFloatingViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				04BBB9B8286E9521009FF0C4 /* SYFloatingViewTests.m */,
+			);
+			path = SYFloatingViewTests;
+			sourceTree = "<group>";
+		};
+		04BBB9C1286E9521009FF0C4 /* SYFloatingViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04BBB9C2286E9521009FF0C4 /* SYFloatingViewUITests.m */,
+				04BBB9C4286E9521009FF0C4 /* SYFloatingViewUITestsLaunchTests.m */,
+			);
+			path = SYFloatingViewUITests;
+			sourceTree = "<group>";
+		};
+		04BBB9D1286E953E009FF0C4 /* SYFloatingView */ = {
+			isa = PBXGroup;
+			children = (
+				04BBB9D2286E956F009FF0C4 /* SYFloatingView.h */,
+				04BBB9D3286E956F009FF0C4 /* SYFloatingView.m */,
+			);
+			path = SYFloatingView;
+			sourceTree = "<group>";
+		};
+		99E2773BE1C48C095F40FF64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B682C1721DE4CC07E7E0F448 /* Pods-SYFloatingView.debug.xcconfig */,
+				D6DA0597E615B00FE02EB23C /* Pods-SYFloatingView.release.xcconfig */,
+				43DD62B23994E2E3EE3AAF94 /* Pods-SYFloatingView-SYFloatingViewUITests.debug.xcconfig */,
+				57D91CD24AD52BDAB23C9599 /* Pods-SYFloatingView-SYFloatingViewUITests.release.xcconfig */,
+				C687077D6EB54D8822F53C5E /* Pods-SYFloatingViewTests.debug.xcconfig */,
+				B7CD1551289D04CADFF40AE4 /* Pods-SYFloatingViewTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E01131631FE831505926E302 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D1BE3062C807C15F260CA14 /* Pods_SYFloatingView.framework */,
+				63B9F7B5F0500B8DD61B0D65 /* Pods_SYFloatingView_SYFloatingViewUITests.framework */,
+				7E513EF0C3237FA9ABA20979 /* Pods_SYFloatingViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04BBB998286E951F009FF0C4 /* SYFloatingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BBB9C8286E9521009FF0C4 /* Build configuration list for PBXNativeTarget "SYFloatingView" */;
+			buildPhases = (
+				ED0763EA79F2A0BF463FAF4E /* [CP] Check Pods Manifest.lock */,
+				04BBB995286E951F009FF0C4 /* Sources */,
+				04BBB996286E951F009FF0C4 /* Frameworks */,
+				04BBB997286E951F009FF0C4 /* Resources */,
+				405247DE92225887FDDFCB2A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYFloatingView;
+			productName = SYFloatingView;
+			productReference = 04BBB999286E951F009FF0C4 /* SYFloatingView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04BBB9B3286E9521009FF0C4 /* SYFloatingViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BBB9CB286E9521009FF0C4 /* Build configuration list for PBXNativeTarget "SYFloatingViewTests" */;
+			buildPhases = (
+				2823DE8FCC833FB9A6843DF2 /* [CP] Check Pods Manifest.lock */,
+				04BBB9B0286E9521009FF0C4 /* Sources */,
+				04BBB9B1286E9521009FF0C4 /* Frameworks */,
+				04BBB9B2286E9521009FF0C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BBB9B6286E9521009FF0C4 /* PBXTargetDependency */,
+			);
+			name = SYFloatingViewTests;
+			productName = SYFloatingViewTests;
+			productReference = 04BBB9B4286E9521009FF0C4 /* SYFloatingViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04BBB9BD286E9521009FF0C4 /* SYFloatingViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BBB9CE286E9521009FF0C4 /* Build configuration list for PBXNativeTarget "SYFloatingViewUITests" */;
+			buildPhases = (
+				B575717859C0AD8AA6795E0C /* [CP] Check Pods Manifest.lock */,
+				04BBB9BA286E9521009FF0C4 /* Sources */,
+				04BBB9BB286E9521009FF0C4 /* Frameworks */,
+				04BBB9BC286E9521009FF0C4 /* Resources */,
+				E338D7F201E00BDDDCA57F29 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BBB9C0286E9521009FF0C4 /* PBXTargetDependency */,
+			);
+			name = SYFloatingViewUITests;
+			productName = SYFloatingViewUITests;
+			productReference = 04BBB9BE286E9521009FF0C4 /* SYFloatingViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04BBB991286E951F009FF0C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					04BBB998286E951F009FF0C4 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					04BBB9B3286E9521009FF0C4 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 04BBB998286E951F009FF0C4;
+					};
+					04BBB9BD286E9521009FF0C4 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 04BBB998286E951F009FF0C4;
+					};
+				};
+			};
+			buildConfigurationList = 04BBB994286E951F009FF0C4 /* Build configuration list for PBXProject "SYFloatingView" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04BBB990286E951F009FF0C4;
+			productRefGroup = 04BBB99A286E951F009FF0C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04BBB998286E951F009FF0C4 /* SYFloatingView */,
+				04BBB9B3286E9521009FF0C4 /* SYFloatingViewTests */,
+				04BBB9BD286E9521009FF0C4 /* SYFloatingViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04BBB997286E951F009FF0C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BBB9AC286E9521009FF0C4 /* LaunchScreen.storyboard in Resources */,
+				04BBB9A9286E9521009FF0C4 /* Assets.xcassets in Resources */,
+				04BBB9A7286E951F009FF0C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BBB9B2286E9521009FF0C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BBB9BC286E9521009FF0C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2823DE8FCC833FB9A6843DF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SYFloatingViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		405247DE92225887FDDFCB2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SYFloatingView/Pods-SYFloatingView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SYFloatingView/Pods-SYFloatingView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SYFloatingView/Pods-SYFloatingView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B575717859C0AD8AA6795E0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SYFloatingView-SYFloatingViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E338D7F201E00BDDDCA57F29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SYFloatingView-SYFloatingViewUITests/Pods-SYFloatingView-SYFloatingViewUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SYFloatingView-SYFloatingViewUITests/Pods-SYFloatingView-SYFloatingViewUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SYFloatingView-SYFloatingViewUITests/Pods-SYFloatingView-SYFloatingViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED0763EA79F2A0BF463FAF4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SYFloatingView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04BBB995286E951F009FF0C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BBB9A4286E951F009FF0C4 /* ViewController.m in Sources */,
+				04BBB99E286E951F009FF0C4 /* AppDelegate.m in Sources */,
+				04BBB9AF286E9521009FF0C4 /* main.m in Sources */,
+				04BBB9D4286E956F009FF0C4 /* SYFloatingView.m in Sources */,
+				04BBB9A1286E951F009FF0C4 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BBB9B0286E9521009FF0C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BBB9B9286E9521009FF0C4 /* SYFloatingViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BBB9BA286E9521009FF0C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BBB9C3286E9521009FF0C4 /* SYFloatingViewUITests.m in Sources */,
+				04BBB9C5286E9521009FF0C4 /* SYFloatingViewUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04BBB9B6286E9521009FF0C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BBB998286E951F009FF0C4 /* SYFloatingView */;
+			targetProxy = 04BBB9B5286E9521009FF0C4 /* PBXContainerItemProxy */;
+		};
+		04BBB9C0286E9521009FF0C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BBB998286E951F009FF0C4 /* SYFloatingView */;
+			targetProxy = 04BBB9BF286E9521009FF0C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04BBB9A5286E951F009FF0C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BBB9A6286E951F009FF0C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04BBB9AA286E9521009FF0C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BBB9AB286E9521009FF0C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04BBB9C6286E9521009FF0C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04BBB9C7286E9521009FF0C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04BBB9C9286E9521009FF0C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B682C1721DE4CC07E7E0F448 /* Pods-SYFloatingView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SYFloatingView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luke.SYFloatingView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04BBB9CA286E9521009FF0C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6DA0597E615B00FE02EB23C /* Pods-SYFloatingView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SYFloatingView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luke.SYFloatingView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04BBB9CC286E9521009FF0C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C687077D6EB54D8822F53C5E /* Pods-SYFloatingViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luke.SYFloatingViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYFloatingView.app/SYFloatingView";
+			};
+			name = Debug;
+		};
+		04BBB9CD286E9521009FF0C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7CD1551289D04CADFF40AE4 /* Pods-SYFloatingViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luke.SYFloatingViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYFloatingView.app/SYFloatingView";
+			};
+			name = Release;
+		};
+		04BBB9CF286E9521009FF0C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43DD62B23994E2E3EE3AAF94 /* Pods-SYFloatingView-SYFloatingViewUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luke.SYFloatingViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SYFloatingView;
+			};
+			name = Debug;
+		};
+		04BBB9D0286E9521009FF0C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D91CD24AD52BDAB23C9599 /* Pods-SYFloatingView-SYFloatingViewUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luke.SYFloatingViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SYFloatingView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04BBB994286E951F009FF0C4 /* Build configuration list for PBXProject "SYFloatingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BBB9C6286E9521009FF0C4 /* Debug */,
+				04BBB9C7286E9521009FF0C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BBB9C8286E9521009FF0C4 /* Build configuration list for PBXNativeTarget "SYFloatingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BBB9C9286E9521009FF0C4 /* Debug */,
+				04BBB9CA286E9521009FF0C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BBB9CB286E9521009FF0C4 /* Build configuration list for PBXNativeTarget "SYFloatingViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BBB9CC286E9521009FF0C4 /* Debug */,
+				04BBB9CD286E9521009FF0C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BBB9CE286E9521009FF0C4 /* Build configuration list for PBXNativeTarget "SYFloatingViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BBB9CF286E9521009FF0C4 /* Debug */,
+				04BBB9D0286E9521009FF0C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04BBB991286E951F009FF0C4 /* Project object */;
+}

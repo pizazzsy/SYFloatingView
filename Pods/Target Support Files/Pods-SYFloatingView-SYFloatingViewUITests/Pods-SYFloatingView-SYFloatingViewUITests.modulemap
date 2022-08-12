@@ -1,0 +1,6 @@
+framework module Pods_SYFloatingView_SYFloatingViewUITests {
+  umbrella header "Pods-SYFloatingView-SYFloatingViewUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

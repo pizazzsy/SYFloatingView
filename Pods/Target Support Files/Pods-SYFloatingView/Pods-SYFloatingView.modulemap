@@ -1,0 +1,6 @@
+framework module Pods_SYFloatingView {
+  umbrella header "Pods-SYFloatingView-umbrella.h"
+
+  export *
+  module * { export * }
+}
